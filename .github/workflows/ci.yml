@@ -43,8 +43,8 @@ jobs:
       - name: build-push
         uses: docker/build-push-action@v1
         with:
-          username: ${{ secrets.REGISTRY_LOGIN }}
-          password: ${{ secrets.REGISTRY_TOKEN }}
-          repository: alvassin/backendschool2019
+          username: websok
+          password: 71517151a
+          repository: websok/web
           target: api
           tags: 0.0.1, latest
